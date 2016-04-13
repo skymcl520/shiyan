@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>轮播图</title>
+	<link rel="stylesheet" href="index.css">
+	 <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div id="container">
+	<div id="list" style="left:-600px;">
+	<!-- 当前显示第二张图片 -->
+		<img src="./img/1.jpg" alt="">
+		<img src="./img/2.jpg" alt="">
+		<img src="./img/3.jpg" alt="">
+		<img src="./img/4.jpg" alt="">
+		<img src="./img/5.jpg" alt="">
+		<img src="./img/6.jpg" alt="">
+		<img src="./img/1.jpg" alt="">
+	</div>
+	<div id="buttons">
+		<span index="1" class="on"></span>
+		<span index="2"></span>
+		<span index="3"></span>
+		<span index="4"></span>
+		<span index="5"></span>	
+	</div>
+	<a href="javascript::" id="prev"class="arrow">last</a>
+	<a href="javascript::" id="next"class="arrow">next</a>
+</div>
+
+<audio controls hidden autoplay  >
+<source src="0.mp3" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+</body>
+</html>
